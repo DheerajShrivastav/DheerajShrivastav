@@ -1,6 +1,21 @@
 # 💫 About Me:
-🔭 Currently vibin' with Ethereum smart contract development and diving deep into the world of DeFi apps. 💻📈<br>👯 Looking to collab on some dope open-source projects that push the boundaries of blockchain tech. Let's create something revolutionary together! 🚀🤝<br>🤝 Need some help in scaling solutions and making my Ethereum smart contracts gas-efficient. Hit me up if you've got the 411! ⚙️🔧<br>🌱 Currently flexin' my skills in Blockchain Development and exploring other lit platforms like Solana. Learning never stops! 🌱💪<br>💬 Ask me anything about Ethereum, Solidity, smart contract audits, or just blockchain stuff in general. I gotchu! 🤓🗣️
+🔭 Currently vibin' with Ethereum smart contract development and diving deep into the world of DeFi apps & AI Agents. 💻📈<br>👯 Looking to collab on some dope open-source projects that push the boundaries of blockchain tech. Let's create something revolutionary together! 🚀🤝<br>🤝 Need some help in scaling solutions and making my Ethereum smart contracts gas-efficient. Hit me up if you've got the 411! ⚙️🔧<br>🌱 Currently flexin' my skills in Blockchain Development and exploring other lit platforms like Solana. Learning never stops! 🌱💪<br>💬 Ask me anything about Ethereum, Solidity, smart contract audits, or just blockchain stuff in general. I gotchu! 🤓🗣️
 
+**Featured Projects:**
+
+* **Latch: Multiplayer Web3 Game**
+    * A hackathon-winning, real-time on-chain game demonstrating complex Solidity smart contract logic and real-time backend integration.
+    * [Explore Latch](https://latch.netlify.app/) | [GitHub Repo](https://github.com/DheerajShrivastav/latch)
+
+* **Event Horizon: AI-Powered Grant Platform**
+    * Developed Solidity smart contracts for bulk crypto payouts on Base L2, integrated with AI for proposal evaluation, and a robust Node.js/PostgreSQL backend.
+    * [GitHub Repo](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp)
+
+* **PrescribeAI: Intelligent Medical Symptom Checker**
+    * An AI-powered system utilizing multiple ML algorithms to predict diseases from symptoms and generate prescriptions.
+    * [Explore PrescribeAI](https://prescribe-ai.streamlit.app/) | [GitHub Repo](https://github.com/DheerajShrivastav/PrescribeAI)
+
+---
 
 ## 🌐 Socials:
 [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@DheerajShrivastav) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/Dheeraj_08_) 
