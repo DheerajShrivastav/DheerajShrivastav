@@ -7,6 +7,9 @@
     * A hackathon-winning, real-time on-chain game demonstrating complex Solidity smart contract logic and real-time backend integration.
     * [Explore Latch](https://latch.netlify.app/) | [GitHub Repo](https://github.com/DheerajShrivastav/latch)
 
+* **Dapp Dropp: Decentralized Airdrop Automation Platform**
+    * A full-stack Web3 SaaS solution featuring smart contract integration, auto-verification systems for social/on-chain tasks, and cross-chain portfolio monitoring to maximize airdrop claim success rates.
+    * [Explore Dapp Drop](https://dapp-drop.vercel.app/) | [GitHub Repo](https://github.com/DheerajShrivastav/DappDrop-FrontEnd)
 * **Event Horizon: AI-Powered Grant Platform**
     * Developed Solidity smart contracts for bulk crypto payouts on Base L2, integrated with AI for proposal evaluation, and a robust Node.js/PostgreSQL backend.
     * [GitHub Repo](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp)
