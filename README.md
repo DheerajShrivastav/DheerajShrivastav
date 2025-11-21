@@ -30,10 +30,6 @@
 ![Ethereum](https://img.shields.io/badge/Ethereum-0066CC?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Foundry](https://img.shields.io/badge/Foundry-007ACC?style=for-the-badge&logo=foundry&logoColor=white)
 
-# Holopin badges
-
-[![An image of @dheerajshrivastav's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/dheerajshrivastav)](https://holopin.io/@dheerajshrivastav)
-
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=DheerajShrivastav&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=DheerajShrivastav&theme=dark&hide_border=false)<br/>
