@@ -2,7 +2,7 @@
 
 # 👋 Dheeraj Shrivastav
 
-### Blockchain Developer | Full-Stack Engineer | Web3 Specialist
+### Full-Stack Engineer | Blockchain Developer | Web3 Specialist
 
 [![Open to Work](https://img.shields.io/badge/Status-Actively%20Looking%20for%20Opportunities-success?style=for-the-badge&logo=handshake&logoColor=white)](mailto:dheerajshrivastav08@gmail.com)
 
@@ -16,9 +16,10 @@ Specialized in Ethereum smart contract development, DeFi applications, and AI ag
 
 ---
 
-## 🎯 What I Bring to the Table
+## What I Bring to the Table
 
 ```
+✅ Robust backend architecture that scales in the real world
 ✅ Smart Contract Development (Solidity, Foundry, Hardhat)
 ✅ Full-Stack Web3 (React, Node.js, ethers.js, Web3.js)
 ✅ DeFi Protocols & On-Chain Game Mechanics
@@ -28,9 +29,21 @@ Specialized in Ethereum smart contract development, DeFi applications, and AI ag
 ```
 
 ---
+## Open Source Contributions
 
-## 💼 Featured Projects
-### 💧 [Dapp Dropp: Airdrop Automation Platform](https://dapp-drop.vercel.app/)
+<!-- Replace the links and descriptions below with your actual contributions -->
+
+**[spreadjam](https://github.com/wespreadjam/jam-nodes)**
+> 📝 Added WordPress integration with blog publishing support
+> 🔗 [PR #45](https://github.com/wespreadjam/jam-nodes/pull/45)
+
+> 📝 Added Dev.to integration (devtoCreateArticle, devtoUpdateArticle, devtoGetArticles)
+> 🔗 [PR #44](https://github.com/wespreadjam/jam-nodes/pull/44)
+
+---
+
+##  Featured Projects
+### [Dapp Dropp: Airdrop Automation Platform](https://dapp-drop.vercel.app/)
 **Full-Stack Web3 SaaS** | Automated airdrop claiming with social & on-chain verification
 
 - **Tech Stack:** Solidity, Next.js, Node.js, PostgreSQL, Web3.js
@@ -41,15 +54,15 @@ Specialized in Ethereum smart contract development, DeFi applications, and AI ag
 - **Impact:** Streamlined airdrop participation process, reducing manual verification by 80%
 - [🔗 Live Demo](https://dapp-drop.vercel.app/) | [💻 Frontend Repo](https://github.com/DheerajShrivastav/DappDrop-FrontEnd)
 
-### 🎮 [Latch: Multiplayer Web3 Game](https://latch.netlify.app/)
-**🏆 Hackathon Winner** | Real-time on-chain gaming with complex smart contract logic
+### [Latch: Multiplayer Web3 Game](https://latch.netlify.app/)
+**Hackathon Winner** | Real-time on-chain gaming with complex smart contract logic
 
 - **Tech Stack:** Solidity, Hardhat, React, Node.js, WebSockets
 - **Key Features:** Real-time blockchain interactions, multiplayer game state management
 - **Impact:** Successfully demonstrated gas-optimized on-chain game mechanics
 - [🔗 Live Demo](https://latch.netlify.app/) | [💻 Source Code](https://github.com/DheerajShrivastav/latch)
 
-### ☁️ [AWS Deploy AI: AI-Powered AWS Deployment Platform](https://github.com/DheerajShrivastav/aws-deploy-ai)  
+### [AWS Deploy AI: AI-Powered AWS Deployment Platform](https://github.com/DheerajShrivastav/aws-deploy-ai)  
 AI-first tool that deploys any project to AWS from a single natural-language prompt using the MCP server — generating IaC, secure IAM, containerization or serverless stacks, and CI/CD automatically.
 
 - **Tech:** LLMs, Node.js/Python, Docker, CloudFormation/Terraform, ECS/Lambda, GitHub Actions  
@@ -57,7 +70,7 @@ AI-first tool that deploys any project to AWS from a single natural-language pro
 - **Impact:** Cuts days of ops work to minutes; faster prototyping with fewer infra mistakes  
 [💻 Repo](https://github.com/DheerajShrivastav/aws-deploy-ai)
 
-### 🌟 [Event Horizon: AI-Powered Grant Platform](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp)
+### [Event Horizon: AI-Powered Grant Platform](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp)
 **AI + Blockchain Fusion** | Decentralized grant distribution on Base L2
 
 - **Tech Stack:** Solidity, Base L2, Node.js, PostgreSQL, OpenAI API
@@ -69,7 +82,7 @@ AI-first tool that deploys any project to AWS from a single natural-language pro
 - [💻 Source Code](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp)
 ---
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 ### Blockchain & Web3
 ![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
@@ -101,7 +114,7 @@ AI-first tool that deploys any project to AWS from a single natural-language pro
 
 ---
 
-## 🏆 Achievements & Highlights
+## Achievements & Highlights
 
 - 🥇 **Hackathon Winner** - Latch Multiplayer Web3 Game
 - 🚀 **Deployed Production Dapps** - 3+ live Web3 applications
@@ -111,14 +124,14 @@ AI-first tool that deploys any project to AWS from a single natural-language pro
 
 ---
 
-## 📊 GitHub Statistics
+## GitHub Statistics
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=DheerajShrivastav&theme=react-dark" alt="Contribution Graph" />
 
 
 ---
 
-## 📫 Let's Connect!
+## Let's Connect!
 
 <div align="center">
 
