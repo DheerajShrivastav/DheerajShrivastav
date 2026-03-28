@@ -4,7 +4,6 @@
 
 ### Full-Stack Engineer | Blockchain Developer | Web3 Specialist
 
-[![Open to Work](https://img.shields.io/badge/Status-Actively%20Looking%20for%20Opportunities-success?style=for-the-badge&logo=handshake&logoColor=white)](mailto:dheerajshrivastav08@gmail.com)
 
 Specialized in Ethereum smart contract development, DeFi applications, and AI agents. Proven track record with hackathon-winning projects and production-ready Web3 applications. Passionate about building scalable, secure blockchain solutions.
 
@@ -34,11 +33,20 @@ Specialized in Ethereum smart contract development, DeFi applications, and AI ag
 <!-- Replace the links and descriptions below with your actual contributions -->
 
 **[spreadjam](https://github.com/wespreadjam/jam-nodes)**
+> 📝 Added Dev.to integration (devtoCreateArticle, devtoUpdateArticle, devtoGetArticles)
+> 🔗 [PR #44](https://github.com/wespreadjam/jam-nodes/pull/44)
+
 > 📝 Added WordPress integration with blog publishing support
 > 🔗 [PR #45](https://github.com/wespreadjam/jam-nodes/pull/45)
 
-> 📝 Added Dev.to integration (devtoCreateArticle, devtoUpdateArticle, devtoGetArticles)
-> 🔗 [PR #44](https://github.com/wespreadjam/jam-nodes/pull/44)
+> 📝 Added webhookTriggerNode for receiving incoming HTTP webhooks
+> 🔗 [PR #48](https://github.com/wespreadjam/jam-nodes/pull/48)
+
+> 📝 Added Implementation of rateLimiterNode
+> 🔗 [PR #49](https://github.com/wespreadjam/jam-nodes/pull/49)
+
+> 📝 Added DataForSEO Extended Operations
+> 🔗 [PR #51](https://github.com/wespreadjam/jam-nodes/pull/51)
 
 ---
 
@@ -68,7 +76,7 @@ AI-first tool that deploys any project to AWS from a single natural-language pro
 - **Tech:** LLMs, Node.js/Python, Docker, CloudFormation/Terraform, ECS/Lambda, GitHub Actions  
 - **Highlights:** Single-prompt infra bootstrap, auto-generated IaC & CI, safe defaults + rollbacks  
 - **Impact:** Cuts days of ops work to minutes; faster prototyping with fewer infra mistakes  
-[💻 Repo](https://github.com/DheerajShrivastav/aws-deploy-ai)
+- [💻 Repo](https://github.com/DheerajShrivastav/aws-deploy-ai)
 
 ### [Event Horizon: AI-Powered Grant Platform](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp)
 **AI + Blockchain Fusion** | Decentralized grant distribution on Base L2
@@ -139,7 +147,7 @@ AI-first tool that deploys any project to AWS from a single natural-language pro
 
 Whether you're hiring, collaborating on open-source, or just want to talk — I'd love to connect!
 
-[![Email](https://img.shields.io/badge/Email-your.email%40example.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dheerajshrivastav08@gmail.com)
+[![Email](https://img.shields.io/badge/Email-dheerajshrivastav08%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dheerajshrivastav08@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dheerajshrivastav/)
 [![Calendar](https://img.shields.io/badge/Schedule%20a%20Call-Calendly-4285F4?style=for-the-badge&logo=google-calendar&logoColor=white)](https://cal.com/dheeraj-shrivastav/15min)
 
