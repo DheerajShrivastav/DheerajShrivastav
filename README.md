@@ -1,162 +1,43 @@
-<div align="center">
+# Dheeraj Shrivastav
 
-# 👋 Dheeraj Shrivastav
+**Software engineer building AI agents and backend services in production.** Maharashtra, India.
 
-### Full-Stack Engineer | Blockchain Developer | Web3 Specialist
+At work I build patient-facing WhatsApp and voice AI agents with doctors reviewing the output before it reaches patients. On my own I'm building [DappDrop](https://dapp-drop.dheerajshrivastav.me), an on-chain rewards protocol.
 
-
-Specialized in Ethereum smart contract development, DeFi applications, and AI agents. Proven track record with hackathon-winning projects and production-ready Web3 applications. Passionate about building scalable, secure blockchain solutions.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/dheerajshrivastav/) [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://x.com/Dheeraj_08_) [![Medium](https://img.shields.io/badge/Medium-Read-12100E?style=flat&logo=medium)](https://medium.com/@DheerajShrivastav) [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:dheerajshrivastav08@gmail.com)
-
-**📍 Location** onchain | **💼 Open to:** Remote/Hybrid Opportunities | **🌍 Work Authorization:** Open to Work
-
-</div>
+[Website](https://dheerajshrivastav.me) · [Resume](https://dheerajshrivastav.me/resume/Dheeraj-Shrivastav-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/dheerajshrivastav/) · [X](https://x.com/Dheeraj_08_) · [Email](mailto:dheerajshrivastav08@gmail.com)
 
 ---
 
-## What I Bring to the Table
+## What I'm building
 
-```
-✅ Robust backend architecture that scales in the real world
-✅ Smart Contract Development (Solidity, Foundry, Hardhat)
-✅ Full-Stack Web3 (React, Node.js, ethers.js, Web3.js)
-✅ DeFi Protocols & On-Chain Game Mechanics
-✅ AI Integration in Blockchain Applications
-✅ Production-Ready Dapp Development
-✅ Cross-Chain Solutions & L2 Integration
-```
+### [DappDrop](https://github.com/DheerajShrivastav/Dapp-Drop-Smart-Contract): Sybil-resistant on-chain rewards protocol (founder, pre-launch on Sepolia)
+Projects run reward campaigns, participants complete verified tasks, and escrowed ERC-20/721/1155 rewards settle via Merkle proofs.
+- Protocol and security model: escrow, Merkle settlement with a 24h dispute window, a fallback settler, and satellite modules to stay under the 24 KB EIP-170 limit.
+- 240 unit + 26 invariant tests with Slither/Aderyn gates. An escrow-solvency invariant caught a high-severity cross-campaign fund drain on the dev branch, before launch. The full log is in [`docs/SECURITY_FINDINGS.md`](https://github.com/DheerajShrivastav/Dapp-Drop-Smart-Contract/blob/dev/docs/SECURITY_FINDINGS.md).
+- Off-chain: EIP-712 attestation signer, SIWE auth, The Graph subgraph with RPC fallback, keeper worker. [App repo](https://github.com/DheerajShrivastav/DappDrop-FrontEnd).
+- Built with AI coding agents behind a verification gate I set up; I own the architecture and security decisions.
 
----
-## Open Source Contributions
+### [AWS Deploy AI](https://github.com/DheerajShrivastav/aws-deploy-ai): natural-language AWS deployments
+An MCP server + Next.js app that analyzes a GitHub repo with AWS Bedrock (Claude) and deploys it to S3 + CloudFront or Lambda. TypeScript.
 
-<!-- Replace the links and descriptions below with your actual contributions -->
+### [Latch](https://latch.netlify.app/): real-time multiplayer browser game (hackathon, team of 4)
+I built the Socket.io multiplayer layer: movement sync, server-side combat and health, and animation state.
 
-**[spreadjam](https://github.com/wespreadjam/jam-nodes)**
-> 📝 Added Dev.to integration (devtoCreateArticle, devtoUpdateArticle, devtoGetArticles)
-> 🔗 [PR #44](https://github.com/wespreadjam/jam-nodes/pull/44)
+### [Event Horizon](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp): AI-assisted grants (Base hackathon, team of 3)
+A Groq-hosted LLM scores grant proposals; a Foundry-tested contract pays the approved ones.
 
-> 📝 Added WordPress integration with blog publishing support
-> 🔗 [PR #45](https://github.com/wespreadjam/jam-nodes/pull/45)
+## Open source
 
-> 📝 Added webhookTriggerNode for receiving incoming HTTP webhooks
-> 🔗 [PR #48](https://github.com/wespreadjam/jam-nodes/pull/48)
+**[jam-nodes](https://github.com/wespreadjam/jam-nodes)** (wespreadjam, workflow-automation framework): 5 contributions merged
+- Dev.to integration with 27 tests ([d5137d8](https://github.com/wespreadjam/jam-nodes/commit/d5137d8))
+- WordPress integration ([6269fc7](https://github.com/wespreadjam/jam-nodes/commit/6269fc7))
+- Webhook trigger node ([#48](https://github.com/wespreadjam/jam-nodes/pull/48))
+- Rate limiter with fixed and sliding-window strategies ([#49](https://github.com/wespreadjam/jam-nodes/pull/49))
+- DataForSEO extended operations ([#51](https://github.com/wespreadjam/jam-nodes/pull/51))
 
-> 📝 Added Implementation of rateLimiterNode
-> 🔗 [PR #49](https://github.com/wespreadjam/jam-nodes/pull/49)
+## Stack
 
-> 📝 Added DataForSEO Extended Operations
-> 🔗 [PR #51](https://github.com/wespreadjam/jam-nodes/pull/51)
-
----
-
-##  Featured Projects
-### [Dapp Dropp: Airdrop Automation Platform](https://dapp-drop.vercel.app/)
-**Full-Stack Web3 SaaS** | Automated airdrop claiming with social & on-chain verification
-
-- **Tech Stack:** Solidity, Next.js, Node.js, PostgreSQL, Web3.js
-- **Key Features:** 
-  - Auto-verification system for social media & blockchain tasks
-  - Cross-chain portfolio monitoring
-  - Smart contract integration for token distribution
-- **Impact:** Streamlined airdrop participation process, reducing manual verification by 80%
-- [🔗 Live Demo](https://dapp-drop.vercel.app/) | [💻 Frontend Repo](https://github.com/DheerajShrivastav/DappDrop-FrontEnd)
-
-### [Latch: Multiplayer Web3 Game](https://latch.netlify.app/)
-**Hackathon Winner** | Real-time on-chain gaming with complex smart contract logic
-
-- **Tech Stack:** Solidity, Hardhat, React, Node.js, WebSockets
-- **Key Features:** Real-time blockchain interactions, multiplayer game state management
-- **Impact:** Successfully demonstrated gas-optimized on-chain game mechanics
-- [🔗 Live Demo](https://latch.netlify.app/) | [💻 Source Code](https://github.com/DheerajShrivastav/latch)
-
-### [AWS Deploy AI: AI-Powered AWS Deployment Platform](https://github.com/DheerajShrivastav/aws-deploy-ai)  
-AI-first tool that deploys any project to AWS from a single natural-language prompt using the MCP server — generating IaC, secure IAM, containerization or serverless stacks, and CI/CD automatically.
-
-- **Tech:** LLMs, Node.js/Python, Docker, CloudFormation/Terraform, ECS/Lambda, GitHub Actions  
-- **Highlights:** Single-prompt infra bootstrap, auto-generated IaC & CI, safe defaults + rollbacks  
-- **Impact:** Cuts days of ops work to minutes; faster prototyping with fewer infra mistakes  
-- [💻 Repo](https://github.com/DheerajShrivastav/aws-deploy-ai)
-
-### [Event Horizon: AI-Powered Grant Platform](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp)
-**AI + Blockchain Fusion** | Decentralized grant distribution on Base L2
-
-- **Tech Stack:** Solidity, Base L2, Node.js, PostgreSQL, OpenAI API
-- **Key Features:**
-  - Bulk crypto payout smart contracts
-  - AI-powered proposal evaluation
-  - Grant lifecycle management
-- **Impact:** Reduced grant processing time, automated proposal scoring
-- [💻 Source Code](https://github.com/DheerajShrivastav/decentralized-grant-program-dapp)
----
-
-## Technical Skills
-
-### Blockchain & Web3
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Foundry](https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=foundry&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
-![Web3.js](https://img.shields.io/badge/Web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
-![ethers.js](https://img.shields.io/badge/ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white)
-
-### Programming & Frameworks
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-
-### Backend & Infrastructure
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### AI/ML
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-
----
-
-## Achievements & Highlights
-
-- 🥇 **Hackathon Winner** - Latch Multiplayer Web3 Game
-- 🚀 **Deployed Production Dapps** - 3+ live Web3 applications
-- 📝 **Technical Writer** - Sharing Web3 knowledge on [Medium](https://medium.com/@DheerajShrivastav)
-- 🔗 **Cross-Chain Experience** - Built on Ethereum, Base L2, and multiple testnets
-- 🧪 **Testing Advocate** - Comprehensive test coverage using Foundry & Hardhat
-
----
-
-## GitHub Statistics
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DheerajShrivastav&theme=react-dark" alt="Contribution Graph" />
-
-
----
-
-## Let's Connect!
-
-<div align="center">
-
-**I'm actively seeking opportunities in blockchain development, Web3, and full-stack engineering roles.**
-
-Whether you're hiring, collaborating on open-source, or just want to talk — I'd love to connect!
-
-[![Email](https://img.shields.io/badge/Email-dheerajshrivastav08%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dheerajshrivastav08@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/dheerajshrivastav/)
-[![Calendar](https://img.shields.io/badge/Schedule%20a%20Call-Calendly-4285F4?style=for-the-badge&logo=google-calendar&logoColor=white)](https://cal.com/dheeraj-shrivastav/15min)
-
-</div>
-
----
-
-<div align="center">
-
-*"Building the decentralized future, one smart contract at a time."* 🚀
-
-</div>
+**AI:** Claude, Gemini, AWS Bedrock, Groq, AI and voice agents, MCP, WhatsApp Business API
+**Backend:** TypeScript, Node.js, NestJS, Express, Bun, Socket.io, Prisma, PostgreSQL, Redis
+**Web3:** Solidity, Foundry, EIP-712, Merkle proofs, The Graph, ethers.js, viem
+**Infra:** Docker, GitHub Actions, AWS, Vercel, Azure
