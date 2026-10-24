@@ -2,7 +2,7 @@
 
 **Software engineer building AI agents and backend services in production.** Maharashtra, India.
 
-At work I build patient-facing WhatsApp and voice AI agents with doctors reviewing the output before it reaches patients. On my own I'm building [DappDrop](https://dapp-drop.dheerajshrivastav.me), an on-chain rewards protocol.
+At work I build a [real-time voice AI agent](https://dheerajshrivastav.me/projects/voice-agent) on Gemini Live that patients and doctors talk to in any language, with strict guardrails and doctors reviewing reports before they reach patients. On my own I'm building [DappDrop](https://dapp-drop.dheerajshrivastav.me), an on-chain rewards protocol.
 
 [Website](https://dheerajshrivastav.me) · [Resume](https://dheerajshrivastav.me/resume/Dheeraj-Shrivastav-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/dheerajshrivastav/) · [X](https://x.com/Dheeraj_08_) · [Email](mailto:dheerajshrivastav08@gmail.com)
 
@@ -37,7 +37,7 @@ A Groq-hosted LLM scores grant proposals; a Foundry-tested contract pays the app
 
 ## Stack
 
-**AI:** Claude, Gemini, AWS Bedrock, Groq, AI and voice agents, MCP, WhatsApp Business API
+**AI:** Gemini Live, Claude, AWS Bedrock, Groq, voice agents, AI agents, guardrails, MCP
 **Backend:** TypeScript, Node.js, NestJS, Express, Bun, Socket.io, Prisma, PostgreSQL, Redis
 **Web3:** Solidity, Foundry, EIP-712, Merkle proofs, The Graph, ethers.js, viem
 **Infra:** Docker, GitHub Actions, AWS, Vercel, Azure
