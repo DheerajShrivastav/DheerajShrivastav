@@ -1,8 +1,8 @@
 # Dheeraj Shrivastav
 
-**Software engineer building AI agents and backend services in production.** Maharashtra, India.
+**I ship software people use, and I own it: from first spec to production, and after launch.** Software engineer, Maharashtra, India.
 
-At work I build a [real-time voice AI agent](https://dheerajshrivastav.me/projects/voice-agent) on Gemini Live that patients and doctors talk to in any language, with strict guardrails and doctors reviewing reports before they reach patients. On my own I'm building [DappDrop](https://dapp-drop.dheerajshrivastav.me), an on-chain rewards protocol.
+At work I'm on the team that shipped a [real-time voice agent](https://dheerajshrivastav.me/projects/voice-agent) on Gemini Live that patients and doctors talk to in any language, which cut manual physician intervention by 65%. I built the automated pipeline that replaced a team's separate tools, and internal AI agents staff use instead of waiting on a senior. On my own I'm building [DappDrop](https://dapp-drop.dheerajshrivastav.me), an on-chain rewards protocol (pre-launch on Sepolia).
 
 [Website](https://dheerajshrivastav.me) · [Resume](https://dheerajshrivastav.me/resume/Dheeraj-Shrivastav-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/dheerajshrivastav/) · [X](https://x.com/Dheeraj_08_) · [Email](mailto:dheerajshrivastav08@gmail.com)
 
@@ -15,7 +15,7 @@ Projects run reward campaigns, participants complete verified tasks, and escrowe
 - Protocol and security model: escrow, Merkle settlement with a 24h dispute window, a fallback settler, and satellite modules to stay under the 24 KB EIP-170 limit.
 - 240 unit + 26 invariant tests with Slither/Aderyn gates. An escrow-solvency invariant caught a high-severity cross-campaign fund drain on the dev branch, before launch. The full log is in [`docs/SECURITY_FINDINGS.md`](https://github.com/DheerajShrivastav/Dapp-Drop-Smart-Contract/blob/dev/docs/SECURITY_FINDINGS.md).
 - Off-chain: EIP-712 attestation signer, SIWE auth, The Graph subgraph with RPC fallback, keeper worker. [App repo](https://github.com/DheerajShrivastav/DappDrop-FrontEnd).
-- Built with AI coding agents behind a verification gate I set up; I own the architecture and security decisions.
+- AI coding agents write much of the code to my specs; I own the architecture, the security model, and the gate nothing merges without.
 
 ### [AWS Deploy AI](https://github.com/DheerajShrivastav/aws-deploy-ai): natural-language AWS deployments
 An MCP server + Next.js app that analyzes a GitHub repo with AWS Bedrock (Claude) and deploys it to S3 + CloudFront or Lambda. TypeScript.
@@ -37,7 +37,7 @@ A Groq-hosted LLM scores grant proposals; a Foundry-tested contract pays the app
 
 ## Stack
 
-**AI:** Gemini Live, Claude, AWS Bedrock, Groq, voice agents, AI agents, guardrails, MCP
 **Backend:** TypeScript, Node.js, NestJS, Express, Bun, Socket.io, Prisma, PostgreSQL, Redis
+**AI:** Gemini Live, Claude, AWS Bedrock, Groq, MCP, voice agents, guardrails
 **Web3:** Solidity, Foundry, EIP-712, Merkle proofs, The Graph, ethers.js, viem
 **Infra:** Docker, GitHub Actions, AWS, Vercel, Azure
